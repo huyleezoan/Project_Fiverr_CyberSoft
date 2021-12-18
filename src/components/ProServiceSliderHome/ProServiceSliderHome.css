@@ -1,0 +1,86 @@
+.pro_service_content .pro_service_slider {
+    margin: 0 -18px;
+}
+
+.pro_service_slider .slider-item {
+    width: 247px;
+    height: 345px;
+    padding: 0 18px;
+}
+
+.pro_service .pro_service_content h2 {
+    font-size: 32px;
+    line-height: 120%;
+    padding-bottom: 24px;
+    font-weight: 700;
+    color: #404145;
+}
+
+.pro_service_slider .slider-item .slider-item-content {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    border-radius: 4px;
+}
+
+.pro_service_slider .slider-item .slider-item-content h4 {
+    color: white;
+    padding: 16px;
+    font-size: 24px;
+}
+
+.pro_service_slider .slider-item:hover .slider-item-content {
+    opacity: .85;
+}
+
+.pro_service_slider .slider-item .slider-item-content h4 small {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.pro_service .pro_service_content .pro_service_slider {
+    position: relative;
+}
+
+.pro_service .pro_service_content .pro_service_slider .slick-arrow {
+    background-color: red;
+    font-size: 16px;
+    position: absolute;
+    top: 58%;
+    width: 48px;
+    height: 48px;
+    z-index: 6;
+    line-height: 100%;
+    text-align: center;
+    margin-top: -24px;
+    border-radius: 30px;
+}
+
+.pro_service .pro_service_content .pro_service_slider .slick-prev {
+    left: -8px;
+}
+
+.pro_service .pro_service_content .pro_service_slider .slick-next {
+    right: -8px;
+}
+
+.pro_service .pro_service_content .pro_service_slider .slick-arrow::after {
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background: url("data:https://fiverr-res.cloudinary.com/npm-assets/@five…gged_out_homepage_perseus/apps/arrows.a8b0bad.svg");
+    background-size: 16px 64px;
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+    color: white;
+}
+
+.pro_service .pro_service_content .pro_service_slider .slick-arrow::before {
+    display: none;
+}

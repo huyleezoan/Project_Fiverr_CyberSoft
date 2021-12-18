@@ -4,7 +4,6 @@
     position: relative;
 
 }
-
 .search_service .carousel-item {
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -23,7 +22,7 @@
 }
 
 .search_service .carousel-item.carousel-img-1 {
-    background-image: url("https://fiverr-res.cloudinary.com/image/upload/q_auto,f_auto/v1/attachments/generic_asset/asset/bb5958e41c91bb37f4afe2a318b71599-1599344049983/bg-hero-1-1792-x1.png");
+    background-image: url(https://fiverr-res.cloudinary.com/image/upload/q_auto,f_auto/v1/attachments/generic_asset/asset/bb5958e41c91bb37f4afe2a318b71599-1599344049983/bg-hero-1-1792-x1.png);
 }
 
 .search_service .carousel-item.carousel-img-2 {
@@ -39,7 +38,7 @@
 }
 
 .search_service .carousel-item.carousel-img-5 {
-    background-image: url(https://fiverr-res.cloudinary.com/image/upload/q_auto,f_auto/v1/attachments/generic_asset/asset/bb5958e41c91bb37f4afe2a318b71599-1599344049970/bg-hero-5-1792-x1.png);
+    background-image: url(https://fiverr-res.cloudinary.com/image/upload/q_auto,f_auto/v1/attachments/generic_asset/asset/93085acc959671e9e9e77f3ca8147f82-1599427734108/bg-hero-4-1792-x1.png);
 }
 
 .search_service .carousel-item p {

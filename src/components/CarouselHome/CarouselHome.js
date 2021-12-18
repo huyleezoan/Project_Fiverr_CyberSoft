@@ -52,9 +52,7 @@ export default function CarouselHome() {
             <div className="content-top">
               <h1>
                 <span>
-                  Find the perfect
-                  <i> freelance</i>
-                  services for your business
+                  Find the perfect <i>freelance</i> services for your business
                 </span>
               </h1>
               <div className="content-top-form">
@@ -101,16 +99,16 @@ export default function CarouselHome() {
                 <span>Popular: </span>
                 <ul>
                   <li>
-                    <a href="#">Website Design</a>
+                    <a href="/" alt="">Website Design</a>
                   </li>
                   <li>
-                    <a href="#">WordPress</a>
+                    <a href="/">WordPress</a>
                   </li>
                   <li>
-                    <a href="#">Logo Design</a>
+                    <a href="/">Logo Design</a>
                   </li>
                   <li>
-                    <a href="#">NFT Art</a>
+                    <a href="/">NFT Art</a>
                   </li>
                 </ul>
               </div>

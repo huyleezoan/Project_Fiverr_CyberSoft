@@ -1,0 +1,1 @@
+export const GET_ALL_SERVICE = "GET_ALL_SERVICE";
