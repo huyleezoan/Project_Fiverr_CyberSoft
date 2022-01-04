@@ -1,10 +1,11 @@
 /* HEADER */
 header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
+    background:gray
 }
 
 a:hover, a {
@@ -34,7 +35,7 @@ a:hover, a {
 .header_right {
     display: flex;
     flex-grow: 1;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 
 .header_right ul {
