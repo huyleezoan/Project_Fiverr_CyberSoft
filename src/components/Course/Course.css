@@ -107,7 +107,7 @@ html, body {
 
 .mostServices .cardList .cardServices .card:hover h3 a {
     color: #1dbf73;
-    transition: all .15s; 
+    transition: all .15s;  
 }
 
 .mostServices .cardList .cardServices .evaluate {

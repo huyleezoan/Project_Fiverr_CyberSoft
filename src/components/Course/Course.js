@@ -84,7 +84,7 @@ export default function Course(props) {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                 </div>
             </div>
         </section>

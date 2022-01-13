@@ -7,8 +7,8 @@ import { useSelector, useDispatch } from 'react-redux';
 import { getAllCourseAction } from '../../redux/actions/CourseReducerAction';
 export default function ResultSearchCourses(props) {
 
-    const { arrayCourse } = useSelector(rootReducer => rootReducer.CourseReducer);
-    const dispatch = useDispatch();
+    // const { arrayCourse } = useSelector(rootReducer => rootReducer.CourseReducer);
+    // const dispatch = useDispatch();
 
 
 
@@ -38,37 +38,6 @@ export default function ResultSearchCourses(props) {
        }
    }, [])
    console.log('job', course);
-
-    // const getAPI = async (job) => {
-    //     try {
-    //         await http.get(`${domain}/api/jobs`).then(
-    //             (res) => {
-    //                 console.log('dataAPI', res.data);
-                    
-    //             }
-    //         )
-    //     } catch (err) {
-    //         console.log('err', err);
-    //     }
-    // }
-
-    // useEffect(() => {
-    //     async function fetchAPI() {
-    //         getAPI();
-    //     }
-
-    //     fetchAPI();
-    //     return () => {
-    //         console.log('will unmount fun');
-    //     }
-    // }, [])
-
-    // useEffect(async () => {
-    //     let action = getAllCourseAction;
-    //     dispatch(action);
-    // }, [])
-
-
 
     const renderCourse = () => {
         return course.map((course, index) => {
