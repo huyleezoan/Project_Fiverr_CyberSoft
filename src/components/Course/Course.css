@@ -1,0 +1,164 @@
+/* GLOBAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'roboto', sans-serif;
+    overflow-x:hidden;
+}
+
+.container__build {
+    width: 88%;
+    margin: 0 auto;
+}
+
+/* mostServices */
+.mostServices {
+    padding: 42px 32px 16px;
+    background-color: #f5f5f5;
+}
+
+.mostServices .header {
+    align-items: center;
+}
+
+.mostServices .header img {
+    width: 80%;
+}
+
+.mostServices .header h3 {
+    position: relative;
+    font-size: 28px;
+    color: #404145;
+    line-height: 130%;
+    font-weight: 700;
+    right: 54px; padding: 0;
+    position: relative;
+    left: -10px;
+}
+
+.mostServices .cardList {
+    justify-content: space-around;
+}
+
+.mostServices .cardList .cardServices .card-body {
+    padding: 0 1.25rem;
+}
+
+.mostServices .cardList .cardServices .author .row { 
+    position: relative;
+    left: 7px;
+    align-items: center;
+    line-height: 120%;
+}
+
+.mostServices .cardList .cardServices .author .col-2 { 
+    padding: 0;
+}
+
+.mostServices .cardList .cardServices .author .col-2 img { 
+    border-radius: 50%;
+    width: 53%;
+}
+
+.mostServices .cardList .cardServices .author .col-6 {
+    padding: 0;
+    position: relative;
+    top: 8px;
+    left: -15px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.mostServices .cardList .cardServices .author .col-6 a {
+    color: #222325;
+    font-weight: 600;
+}
+
+.mostServices .cardList .cardServices .author .col-6 p {
+    color: #7a7d85;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+.mostServices .cardList .cardServices h3 {
+    position: relative;
+    left: -8px;
+    font-size: 16px; 
+}
+
+.mostServices .cardList .cardServices h3 a {
+    color: #222325;
+    line-height: 22px;
+    font-weight: 400;
+    height: 43px;
+    text-decoration: none;
+
+    /* code thu gon nội dung */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.mostServices .cardList .cardServices .card:hover h3 a {
+    color: #1dbf73;
+    transition: all .15s; 
+}
+
+.mostServices .cardList .cardServices .evaluate {
+    position: relative;
+    left: -8px;
+    color: #ffbe5b;
+    font-weight: 700;
+}
+
+.mostServices .cardList .cardServices .evaluate span {
+    color: #b5b6ba;
+    font-weight: 400;
+}
+
+.mostServices .cardList .cardServices hr {
+    position: relative;
+    left: -20px;
+    margin: 7px 0px 0px;
+    width: 116.5%;
+}
+
+.mostServices .cardList .cardServices .cardFooter {
+    position: relative;
+    left: 7px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.mostServices .cardList .cardServices .cardFooter svg {
+    fill: #b5b6ba;
+    cursor: pointer;
+}
+
+.mostServices .cardList .cardServices .cardFooter a {
+    position: relative;
+    right: 12px;
+    text-decoration: none;
+}
+
+.mostServices .cardList .cardServices .cardFooter a small {
+    color: #7a7d85;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+
+.mostServices .cardList .cardServices .cardFooter a span {
+    padding-left: 6px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #404145;
+}

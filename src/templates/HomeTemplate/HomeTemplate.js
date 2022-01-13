@@ -7,7 +7,7 @@ export default function HomeTemplate(props) {
   return (
     <Fragment>
       <Route
-        path={props.path}
+        exact path={props.path}
         render={(propsRoute) => {
           return (
             <Fragment>

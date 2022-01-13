@@ -7,7 +7,7 @@ import ProServiceSliderHome from "../../components/ProServiceSliderHome/ProServi
 export default function Home(props) {
   return (
     <Fragment>
-      <CarouselHome />
+      <CarouselHome /> 
       <LogoTrustedHome />
       <ProServiceSliderHome />
     </Fragment>
